@@ -35,6 +35,13 @@ Epochs: 25
 ---
 
 ## 📁 Repository Structure
+- `Hackathon_esm2.jpynb`: The jupyter notebook pytorch script containing code necessary to execute commands
+- `predictions.csv`: A csv file containing your predictions for all mutants in the test set (i.e., 11,324 mutants), regardless of whether they have been queried before or not. This csv file will need to have two columns: mutant, and DMS_score_predicted. The test set is provided in test.csv.
+- `queried_data.csv`: The first text file containing no more than 100 query mutants. (ground truth)
+- `queried_data2.csv`: The second text file containing no more than 100 query mutants. (ground truth)
+- `queried_data3.csv`: The third text file containing no more than 100 query mutants. (ground truth)
+- `top10.txt`: The text file containing selected top 10 mutants in terms of predicted DMS scores.
+
 
 
 
